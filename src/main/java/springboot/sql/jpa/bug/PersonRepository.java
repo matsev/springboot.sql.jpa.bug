@@ -1,0 +1,6 @@
+package springboot.sql.jpa.bug;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonRepository extends JpaRepository<Person, Long> {
+}
